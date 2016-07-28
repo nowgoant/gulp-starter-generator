@@ -1,0 +1,47 @@
+/**
+ * font
+ * @type {[type]}
+ */
+/**
+ * border
+ */
+/**
+ * backgroud
+ */
+/**
+ * btn
+ */
+/**
+ * icon
+ */
+/**
+** color
+*/
+/*
+*color only
+*/
+/* CSS Document*/
+/* line 4, ../scss/success.scss */
+.top-area {
+  height: 11rem;
+  background: #6DB247;
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 12, ../scss/success.scss */
+.icon-success {
+  width: 6.875rem;
+  height: 6.875rem;
+}
+
+/* line 17, ../scss/success.scss */
+.list-item {
+  height: 3.5rem;
+  line-height: 3.5rem;
+}
+/* line 20, ../scss/success.scss */
+.list-item .jrm-fr {
+  color: #999999;
+}

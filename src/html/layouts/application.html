@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Expires" content="0" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>{% block title %}{% endblock %}</title>
+  <link rel="stylesheet" href="styles/base.css"> {% block head %} {% endblock %}
+</head>
+
+<body>
+  {% include "shared/loading.html" %}
+
+  <div class="jrm-bfc jrm-page-current jrm-animation burst-in jrm-w100p jrm-h100p jrm-hide">
+    {% block content %}{% endblock %}
+  </div>
+
+  <script src="//m.jr.jd.com/statics/bridgev6.min.js"></script>
+  <script src="scripts/shared.js"></script>
+
+  {% block javascript %} {% endblock %}
+</body>
+</html>
